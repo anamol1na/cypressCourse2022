@@ -1,0 +1,14 @@
+{
+
+    "scripts":{
+    "test": "node_modules//.bin//cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "esbuild": "^0.16.17"
+  }
+}
